@@ -1,13 +1,23 @@
-//font variables
-$nav_font_color: #555656
-$headline_color #58E1C1
-$font_color #555656
-$link_color #51DDFC
+//breakpoints
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1400px;
 
-// button variables
-$nav_button_color #58E1C1
-$default_button_color #51DDFC
-$success_button_color #63CC82
-$error_button_color #E4757A
-$warning_button_color #FD7856
-$info_button_color #927BC1
+//font variables
+$sans-serif: "Source Sans Pro", Arial, sans-serif;
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+$nav_font_color: #555656;
+$headline_color: #58E1C1;
+$font_color: #555656;
+$link_color: #51DDFC;
+
+//button variables
+$nav_button_color: #58E1C1;
+$default_button_color: #51DDFC;
+$success_button_color: #63CC82;
+$error_button_color: #E4757A;
+$warning_button_color: #FD7856;
+$info_button_color: #927BC1;	

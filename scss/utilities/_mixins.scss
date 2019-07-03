@@ -1,0 +1,54 @@
+
+//Mixins for MQ's
+@mixin for-tablet-only {
+  
+@media (min-width: 768px) { @content; }
+}
+
+@mixin for-tablet {
+  
+@media (min-width: 992px) { @content; }
+}
+
+@mixin for-desktop-only {
+  
+@media (min-width: 1400px) { @content; }
+}
+
+//Mixins for Flexbox
+@mixin flexbox {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	align-items: center;
+}
+
+//Mixins for Buttons
+
+@mixin nav-button {
+	background: $nav_button_color; 
+	list-style: none;	
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	
+	a {
+		text-decoration: none;
+		font-weight: 400;
+		color: white;
+	}
+}
+
+//Mixins for Text
+
+@mixin body-copy {
+	font-size: 16px;
+	font-weight: 400;
+	colour: $font_color;
+}
+
+@mixin h4 {
+	font-weight: 400;
+}

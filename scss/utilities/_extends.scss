@@ -1,0 +1,41 @@
+//Placeholder for Links
+
+.link {
+	font-size: 1em;
+	font-weight: $semibold;
+	color: $link_color; 
+}
+
+//Placeholder for Images
+
+.img--avatar {
+	border-radius: 100%;
+}
+
+.img--frame {
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+//Placeholder for Nav items
+
+.grid__col--3 {
+	@include flexbox;
+}
+
+.grid__col--9 ul {
+	@include flexbox;
+	padding: 0;
+}
+
+.nav__item {
+	@include nav-button;
+	@include flexbox;		
+}
+
+//Placeholder for Text
+
+.card p {
+	@include body-copy;
+}
+
