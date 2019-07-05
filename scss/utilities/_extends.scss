@@ -4,17 +4,7 @@
 	font-size: 1em;
 	font-weight: $semibold;
 	color: $link_color; 
-}
-
-//Placeholder for Images
-
-.img--avatar {
-	border-radius: 100%;
-}
-
-.img--frame {
-	border: 1px solid grey;
-	padding: 5px;
+	text-decoration: none;
 }
 
 //Placeholder for Nav items
@@ -22,6 +12,11 @@
 .grid__col--3 {
 	@include flexbox;
 }
+
+.grid__col--6 {
+	@include flexbox;
+}
+
 
 .grid__col--9 ul {
 	@include flexbox;
@@ -39,3 +34,14 @@
 	@include body-copy;
 }
 
+body h4 {
+	@include h4;
+}
+
+body .headline--primary {
+	@include headline--primary;
+}
+
+.blockquote {
+	@include quote;
+}
