@@ -73,6 +73,9 @@ body .headline--primary {
   margin-right: 20px;
   padding-left: 20px; }
 
+* {
+  box-sizing: border-box; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
