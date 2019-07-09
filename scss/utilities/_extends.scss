@@ -21,14 +21,14 @@
 .grid__col--9 ul {
 	@include flexbox;
 	padding: 0;
-	@include for-desktop-only {    
+	@include for-tablet-only {    
       flex-wrap: nowrap;
 	  width: 60%;
    }
 }
 
 nav {
-	@include for-desktop-only { 
+	@include for-tablet-only { 
 		display: flex;
 		align-content: flex-end;
 		align-items: flex-end;

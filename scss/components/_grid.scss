@@ -18,7 +18,7 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include for-tablet-only {
       flex-direction: row;
     }
   }
@@ -42,7 +42,7 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
+        @include for-tablet-only {
 
           // base stlyes applied to all grid columns
           margin-top: 0;
@@ -61,7 +61,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @include for-tablet-only {
 
       // add grid gutter
       margin-left: 10px;
@@ -100,3 +100,11 @@
 .grid__col--4.theme__colors {
   background-color: $col-4;
 }
+
+@include for-tablet-only {
+	.grid__row {
+		justify-content: center;
+		align-items: center;
+	}
+}
+

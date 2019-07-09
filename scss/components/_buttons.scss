@@ -62,3 +62,17 @@
 		font-size: 0.9em;
 		margin-bottom: 15px;		
 	}
+
+.grid__col--12 {
+	@include for-tablet-only { 
+		display: flex;
+		&.grid__col--12 button {
+			margin-right: 60px;
+			
+		&.btn--default {
+			margin-left: 60px;
+		}
+		}
+		
+   }
+}

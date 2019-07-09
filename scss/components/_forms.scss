@@ -19,3 +19,9 @@
 		padding-left: 10px;
 	}
 }
+
+@include for-tablet-only {
+	.form {
+		margin-left: 50px;
+	}
+}
