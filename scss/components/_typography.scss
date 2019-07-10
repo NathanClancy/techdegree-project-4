@@ -19,3 +19,26 @@
 .headline--secondary {
 	font-size: 1.2em;
 }
+
+.card p {
+	@include body-copy;
+}
+
+*.headline--secondary {
+	@include h4;
+}
+
+*.headline--primary {
+	@include headline--primary;
+}
+
+.blockquote {
+	@include quote;
+}
+
+.link {
+	font-size: 1em;
+	font-weight: $semibold;
+	color: $link_color; 
+	text-decoration: none;
+}
