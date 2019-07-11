@@ -7,7 +7,7 @@
    }
 }
 
-[role=navigation]{
+.grid__col--9 nav {
 	@include for-tablet-only { 
 		display: flex;
 		justify-content: flex-end;

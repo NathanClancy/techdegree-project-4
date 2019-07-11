@@ -549,15 +549,16 @@ template {
   .grid__row {
     justify-content: center;
     align-items: center; } }
+[class*="img--"] {
+  max-width: 100%; }
+
 .img--avatar {
   border-radius: 100%;
-  margin: 0 auto;
-  width: 60%; }
+  margin: 0 auto; }
 
 .img--frame {
   border: 1px solid grey;
   padding: 10px;
-  width: 94%;
   margin: 0 auto;
   margin-bottom: 25px; }
 
@@ -573,7 +574,7 @@ template {
       width: 60%; } }
 
 @media (min-width: 768px) {
-  [role=navigation] {
+  .grid__col--9 nav {
     display: flex;
     justify-content: flex-end; } }
 
